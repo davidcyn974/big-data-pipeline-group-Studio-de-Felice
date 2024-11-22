@@ -1,1 +1,0 @@
-print("Todo: Implement the model creation script")
