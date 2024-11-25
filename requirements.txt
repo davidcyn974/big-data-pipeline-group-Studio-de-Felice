@@ -3,3 +3,4 @@ pandas
 matplotlib
 seaborn
 pyspark
+pyspark[sql]
