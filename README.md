@@ -1,4 +1,4 @@
-# E-Commerce Data Analytics Pipeline
+# E-Commerce Data Analytics Pipeline - groupe Studio De Felice 💃
 
 This BIG-DATA project implements a data pipeline for e-commerce trend analysis, from ingestion to machine learning predictions.
 
