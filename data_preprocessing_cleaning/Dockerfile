@@ -9,8 +9,12 @@ RUN apt-get update && \
 
 COPY requirements.txt .
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt \
+    && pip install jupyter nbconvert
 
 COPY . .
+
+RUN jupyter nbconvert --to python data_preprocessing_notebook.ipynb \
+    && mv data_preprocessing_notebook.py main.py
 
 CMD ["python", "main.py"]
