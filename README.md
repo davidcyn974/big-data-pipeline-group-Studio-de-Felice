@@ -92,7 +92,7 @@ For any questions or feedback, please contact the team at
 
 - [david.chane-yock-nam@epita.fr](mailto:david.chane-yock-nam@epita.fr)
 - [pierre-louis.favreau@epita.fr](mailto:pierre-louis.favreau@epita.fr)
-- [martin.natale@epita.fr](mailto:martin.natale@epita.fr)
+- [martin.natale@epita.fr](mailto:martin2.natale@epita.fr)
 - [samy.amine@epita.fr](mailto:samy.amine@epita.fr)
 - [vincent.saunier@epita.fr](mailto:vincent.saunier@epita.fr)
 
