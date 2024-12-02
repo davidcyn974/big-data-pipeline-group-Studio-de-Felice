@@ -1,6 +1,6 @@
 FROM python:3.9-slim
 
-WORKDIR /app/data_ingestion
+WORKDIR /app
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
