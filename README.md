@@ -8,6 +8,7 @@ This BIG-DATA project implements a data pipeline for e-commerce trend analysis, 
 - **Data Preprocessing**: Robust data cleaning and transformation pipeline
 - **Machine Learning Module**: Predictive analytics and pattern recognition
 - **SQL Analytics**: Advanced querying and business intelligence capabilities
+- **NoSQL Database**: MongoDB for flexible data storage and retrieval
 - **Distributed Computing**: Built on Apache Spark for scalable processing
 
 ## 🏗️ Architecture
@@ -18,11 +19,16 @@ The project is built using a microservices architecture, with each component run
 ┌─────────────────┐     ┌──────────────────┐     ┌────────────────┐
 │  Data Ingestion │ ──► │  Preprocessing   │ ──► │  ML Module     │
 └─────────────────┘     └──────────────────┘     └────────────────┘
-                                                         │
-                                                         ▼
-                                               ┌────────────────┐
-                                               │  SQL Analytics │
-                                               └────────────────┘
+        │                        │                        │
+        ▼                        ▼                        ▼
+┌─────────────────────────────────────────────────────────┐
+│                      MongoDB                            │
+└─────────────────────────────────────────────────────────┘
+                            │
+                            ▼
+                   ┌────────────────┐
+                   │  SQL Analytics │
+                   └────────────────┘
 ```
 
 ## 🚀 Getting Started
@@ -51,6 +57,7 @@ docker-compose up --build
 - **Apache Spark**: Distributed computing engine
 - **Python**: Primary programming language
 - **Docker**: Containerization
+- **MongoDB**: NoSQL database for flexible data storage
 - **PySpark**: Python API for Spark
 - **Pandas**: Data manipulation and analysis
 - **Scikit-learn**: Machine learning algorithms
@@ -61,6 +68,7 @@ docker-compose up --build
 1. **Data Ingestion**
    - Automated data collection
    - Data validation and initial quality checks
+   - Storage in MongoDB for raw data
    - Raw data storage
 
 2. **Data Preprocessing**
